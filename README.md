@@ -38,6 +38,30 @@ Building
 =
 Install [devkitARM](https://devkitpro.org/) and run `make`.
 
+"Forking"
+=
+ 1. Create a bare clone of the repository.
+    ```bash
+    git clone --bare git@github.com:Decscots/Lockpick_RCM.git
+    ```
+
+ 2. [Create a new private repository on Github](https://help.github.com/articles/creating-a-new-repository/) and name it `Lockpick_RCM`.
+    > If you are unable to create a private repo, you can request unlimited private repos as a studant by getting
+    > the [student pack](https://education.github.com/pack) from Github.
+
+ 3. Mirror-push your bare clone to your new `Lockpick_RCM` repository.
+    > Replace `<your_username>` with your actual Github username in the url below.
+    
+    ```bash
+    cd Lockpick_RCM.git
+    git push --mirror git@github.com:<your_username>/Lockpick_RCM.git
+    ```
+ 4. Remove the temporary local repository you created in step 1.
+    ```bash
+    cd ..
+    rm -rf Lockpick_RCM.git
+    ```
+
 Massive Thanks to CTCaer!
 =
 This software is heavily based on [Hekate](https://github.com/CTCaer/hekate). Beyond that, CTCaer was exceptionally helpful in the development of this project, lending loads of advice, expertise, and humor.
