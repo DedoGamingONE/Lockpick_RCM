@@ -46,7 +46,7 @@ Install [devkitARM](https://devkitpro.org/) and run `make`.
     ```
 
  2. [Create a new private repository on Github](https://help.github.com/articles/creating-a-new-repository/) and name it `Lockpick_RCM`.
-    > If you are unable to create a private repo, you can request unlimited private repos as a studant by getting
+    > If you are unable to create a private repo, you can request unlimited private repos as a student by getting
     > the [student pack](https://education.github.com/pack) from Github.
 
  3. Mirror-push your bare clone to your new `Lockpick_RCM` repository.
